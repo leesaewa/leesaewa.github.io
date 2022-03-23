@@ -18,13 +18,15 @@ comments: false
         <div class="form-group row">
             <div class="col-md-6"><input class="form-control" type="text" name="name" placeholder="Name" required title="name"></div>
             <div class="col-md-6"><input class="form-control" type="email" name="_replyto" placeholder="E-mail Address" required title="email"></div>
-            <div class="col-md-6"><input class="form-control" name="subject" placeholder="Subject" required title="subject"></div>
-            <select class="form-control" name="timely" id="timely" required title="Category">
+        </div>
+        <div class="form-group row">
+            <div class="col-md-6"><select class="form-control" name="timely" id="timely" required title="Category">
                 <option value="" selected="" disabled="">Category Choose</option>
                 <option value="1">job offer</option>
                 <option value="3">freelance job offer</option>
                 <option value="5">Other</option>
-            </select>
+            </select></div>
+            <div class="col-md-6"><input class="form-control" name="subject" placeholder="Subject" required title="subject"></div>
         </div>
         <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message" required></textarea>    
         <input class="btn btn-dark" type="submit" value="Send">
