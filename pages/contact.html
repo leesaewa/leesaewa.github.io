@@ -9,11 +9,6 @@ comments: false
     <fieldset>
         <legend style="position:absolute; top:-5000%;">contact form </legend>
 
-        <!-- 숨김 항목 -->
-        <input type="hidden" name="_next" value="https://leesaewa.github.io/" />
-        <!-- <input type="hidden" name="_subject" value="Contact Form에서 새 메일이 도착했어요" /> -->
-        <!-- .//숨김 항목 -->
-
         <p class="mb-4">Thank you for your interest in getting in touch with me. Please send your message here. I will reply as soon as possible!</p>
         <div class="form-group row">
             <div class="col-md-6"><input class="form-control" type="text" name="name" placeholder="Name" required title="name"></div>
@@ -26,7 +21,7 @@ comments: false
                 <option value="3">Freelance Job Offer</option>
                 <option value="5">Other</option>
             </select></div>
-            <div class="col-md-6"><input class="form-control" name="subject" placeholder="Subject" required title="subject"></div>
+            <div class="col-md-6"><input class="form-control" name="_subject" placeholder="Subject" required title="subject"></div>
         </div>
         <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message" required></textarea>    
         <input class="btn btn-dark" type="submit" value="Send">
